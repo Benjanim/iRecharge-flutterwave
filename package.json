@@ -1,0 +1,17 @@
+{
+  "name": "flutterwave-charge",
+  "version": "1.0.0",
+  "description": "An api to charge customer card using flutterwave api",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Benjamin Abayomi",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "express": "^4.18.1",
+    "flutterwave-node-v3": "^1.0.10",
+    "redis": "^4.2.0"
+  }
+}
